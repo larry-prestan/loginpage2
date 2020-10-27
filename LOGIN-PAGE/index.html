@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOTSTRAP & CSS-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexpage.css">
+    <!--JQUERY & JS-->
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/indexpage.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="formcontainer" class="container">
+        <img id="imglogin" src="images/loginicon.png" alt="loginicon" width="40%">
+        <h6>LOGIN</h6>
+        <hr>
+        <form id="formlogin">
+            <label for="usuario">Usuario.</label>
+            <div class="form-group">
+                <input type="text" name="usuario" id="usuario" autocomplete="off">
+            </div>
+            <label for="passwd">Contraseña.</label>
+            <div class="form-group">
+                <input type="password" name="passwd" id="passwd" autocomplete="off">
+            </div>
+        </form>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button id="btnentrar" class="btn btn-success btn-block">Entrar</button>
+            </div>
+            <div class="col">
+                <button id="btncancelar" class="btn btn-danger btn-block">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--BOOTSTRAP/JS-->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</html>

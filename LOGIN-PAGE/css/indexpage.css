@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formcontainer {
+    padding: 1%;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+hr {
+    border-color: lightgray;
+}
+
+#imglogin {
+    margin-top: -30%;
+    margin-left: 30%;
+}
+
+#formlogin label {
+    color: white;
+    font-weight: 600;
+}
+
+#formlogin input {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+}
